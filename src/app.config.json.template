@@ -1,0 +1,36 @@
+{
+    "reminders": {
+        "friendly": [
+            "30",
+            "14"
+        ],
+        "unfriendly": [
+            "7",
+            "2",
+            "1",
+            "0"
+        ],
+        "checkTime": "12"
+    },
+    "bots": {
+        "sally": {
+            "token": "<<YOUR BOT TOKEN>>>",
+            "name": "Sally The SSL Alpaca",
+            "icon": {
+                "angry": "https://i.imgur.com/OTDX959.jpg",
+                "happy": "https://i.imgur.com/OTs5B5X.jpg"
+            }
+        }
+    },
+    "channels": [
+        "<<YOUR CHANNEL NAME, WHICH SHOULD GET REMINDERS>>"
+    ],
+    "server": {
+        "publicUrl": {
+            "production": "<<YOUR PRODUCTION PUBLIC URL>>",
+            "dev": "http://localhost:8080"
+        },
+        "port": 8080,
+        "hostname": "0.0.0.0"
+    }
+}

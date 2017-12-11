@@ -1,0 +1,54 @@
+{
+  "name": "ssl-certificate-notifier",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "prestart": "pg-migrate up",
+    "start": "npm run start:server && npm run start:checker",
+    "start:server": "node src/server/app.js",
+    "start:checker": "node src/checker/app.js",
+    "predev": "npm run lint",
+    "dev": "npm start",
+    "docs": "npm run docs:html && npm run docs:md && npm run docs:pdf",
+    "docs:html": "documentation build src/** -f html -o docs/html/",
+    "docs:md": "documentation build src/** -f md -o docs/markdown/README.md",
+    "docs:pdf": "md-to-pdf docs/markdown/README.md docs/pdf/documentation.pdf",
+    "lint": "eslint src/**/**.js",
+    "test": "./node_modules/.bin/istanbul cover node_modules/.bin/_mocha",
+    "test:dev": "./node_modules/.bin/istanbul cover node_modules/.bin/_mocha --watch"
+  },
+  "homepage": "https://github.com/Roche/ssl-certificate-notifier",
+  "author": {
+    "name": "Livio Brunner",
+    "email": "livio.brunner.lb1@gmail.com",
+    "url": "https://brunnerliv.io"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.0",
+    "body-parser": "^1.18.2",
+    "chalk": "^2.3.0",
+    "express": "^4.16.2",
+    "fs-extra": "^4.0.2",
+    "https": "^1.0.0",
+    "ics": "^2.0.1",
+    "moment": "^2.19.2",
+    "node-pg-migrate": "^2.13.2",
+    "pg": "^7.4.0",
+    "promise": "^8.0.1",
+    "request": "^2.83.0",
+    "slackbots": "^1.1.0",
+    "ssl-checker": "^1.0.2",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "documentation": "^5.3.3",
+    "eslint": "^4.11.0",
+    "istanbul": "^0.4.5",
+    "md-to-pdf": "^1.1.0",
+    "mocha": "^4.0.1",
+    "mock-require": "^2.0.2"
+  }
+}
