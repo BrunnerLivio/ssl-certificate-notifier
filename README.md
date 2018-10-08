@@ -1,5 +1,5 @@
 <div style="text-align:center;">
-    <h1>Sally The SSL Alpaca - A Slack Bot</h1>
+    <h1>Sally The SSL Alpaca - A Slack Bot repository was migrated to internal bitbucket to get access please cobtact with Roche DevTools Support</h1>
     <img src="https://travis-ci.org/Roche/ssl-certificate-notifier.svg?branch=master" alt="Build Status">
     <p>
     Sally reminds you, when your SSL certificates in your internal network are expiring.
