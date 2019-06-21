@@ -7,7 +7,7 @@
     <img src="https://i.imgur.com/H92Mo0L.jpg" alt="Sally" />
 </div>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy) [![Greenkeeper badge](https://badges.greenkeeper.io/BrunnerLivio/ssl-certificate-notifier.svg)](https://greenkeeper.io/)
 
 # Table of Contents
 - <a href="#under-the-hood">Under The Hood</a>
