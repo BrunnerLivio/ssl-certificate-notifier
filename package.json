@@ -46,7 +46,7 @@
   "devDependencies": {
     "chai": "^4.1.2",
     "documentation": "^11.0.1",
-    "eslint": "^5.16.0",
+    "eslint": "^6.0.0",
     "istanbul": "^0.4.5",
     "md-to-pdf": "^2.7.1",
     "mocha": "^6.1.4",
