@@ -48,7 +48,7 @@
     "documentation": "12.1.1",
     "eslint": "6.2.2",
     "istanbul": "0.4.5",
-    "md-to-pdf": "2.7.1",
+    "md-to-pdf": "2.8.1",
     "mocha": "6.2.0",
     "mock-require": "3.0.3"
   }
