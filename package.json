@@ -38,7 +38,7 @@
     "node-pg-migrate": "3.22.1",
     "pg": "7.12.1",
     "promise": "8.0.3",
-    "request": "2.88.0",
+    "request": "2.88.2",
     "slackbots": "1.2.0",
     "ssl-checker": "2.0.0",
     "url": "0.11.0"
