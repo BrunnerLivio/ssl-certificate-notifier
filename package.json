@@ -35,7 +35,7 @@
     "https": "1.0.0",
     "ics": "2.17.0",
     "moment": "2.24.0",
-    "node-pg-migrate": "3.22.1",
+    "node-pg-migrate": "4.8.0",
     "pg": "7.12.1",
     "promise": "8.0.3",
     "request": "2.88.0",
